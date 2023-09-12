@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 400px;
+    background-image:url("img/guincho.jpg");
+    backface-visibility: hidden;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo img {
+    width: 30px;
+}
+
+.h1 {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+
+.h2 {
+    border: 1px solid red;
+    height: 93%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center ;
+}
+
+ul {
+    display: flex;
+    align-content: center;
+    gap: 20px;
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+}
