@@ -4,42 +4,84 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bg-color: #909cbd;
+    --color: #fff;
+}
+
+/* estilização do cabeçalho */
+body {
+    background-color: #808aa3;
+}
+
 header {
-    height: 400px;
-    background-image:url("img/guincho.jpg");
-    backface-visibility: hidden;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
+   background-image: url(Go-cargo-img.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 85vh;
+   width: 100vw;
 }
 
-.logo img {
-    width: 30px;
-}
-
-.h1 {
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid red;
-}
-
-.h2 {
-    border: 1px solid red;
-    height: 93%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center ;
+div {
+    margin-bottom: 2px;
 }
 
 ul {
     display: flex;
-    align-content: center;
-    gap: 20px;
-    list-style-type: none;
-
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    list-style-type: none;   
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-a {
-    text-decoration: none;
+a,
+.h2,
+.button1,
+.button2 {
+    color: white;
 }
+
+.h1,
+.h2 {
+   display: flex;
+   justify-content: space-around;
+}
+
+.secundario {
+    margin: 20px;
+    text-align: center;
+}
+
+.h2 {
+    font-size: 200%;
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button1 {
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.button2 {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid var(--color);
+    cursor: pointer;
+    padding: 10px;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
